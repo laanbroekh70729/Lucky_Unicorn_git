@@ -18,3 +18,7 @@ add = num_1 + num_2
 print ('Hello', name)
 
 print (" {} + {} = {}".format (num_1, num_2, add ))
+
+#ask user how much money the user would like to play with, $1 or $5
+
+
