@@ -1,10 +1,73 @@
 # Generate random token
+# ask user for name
+
+name = input ("What is your name")
+
+# ask user for two numbers
+
+tokens = ["horse", "zebra", "donkey", "unicorn"]
+num_1 = int(input("What is your favourite number? "))
+
+num_2 = int(input("What is your second favourite number? "))
+
+# add numbers together
+
+add = num_1 + num_2
+
+# multiply numbers together
+
+# greet user and display match
+
+print ('Hello',name)
+
+print (" {} + {} = {}".format (num_1, num_2, add ))
+
+#ask user how much money the user would like to play with, min $1 or max $5
+
+print()
+print("Welcome")
+print()
+print("How this game works")
+print()
+print("- Each round counts $1")
+print ("- Each round you have a chance to win some of your money back or more than you payed for each round")
+print()
+print("- For each round, you get a token which is worth an amount of money")
+print()
+print("Tokens: Donkey ($2), Horse or Zebra ($2) or an Unicorn ($5)")
+def int_check(question):
+    balance = int_check()("How much money would you like to play with? (Whole dollars between $1 or $5)",1, 10)
+    # Generate random token
 
 
 import random
 
 tokens = ["horse", "zebra", "donkey", "unicorn"]
+for item in range(1, 15):
 
-picked = random.choice(tokens)
-print(picked)
+  picked = random.choice(tokens)
+  print(picked)
+
+import random
+
+HOW_MUCH = 100
+tokens = ["horse", "zebra", "donkey", "unicorn"]
+
+unicorn_count = 0
+zebhor_count = 0
+donkey_count = 0
+
+for item in range(1,HOW_MUCH):
+
+    chosen = random.choice(tokens)
+
+    if chosen == "unicorn":
+        unicorn_count += 1
+    elif chosen == "donkey":
+        donkey_count += 1
+    else:
+        zebhor_count+= 1
+        
+        print(chosen)
+
 
