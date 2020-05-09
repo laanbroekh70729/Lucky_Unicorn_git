@@ -1,6 +1,6 @@
 import random
 
-HOW_MUCH = 100
+HOW_MUCH = 10
 tokens = ["horse", "zebra", "donkey", "unicorn"]
 
 unicorn_count = 0
@@ -17,7 +17,7 @@ for item in range(1,HOW_MUCH):
         donkey_count += 1
     else:
         zebhor_count+= 1
-        
+
         print(chosen)
 
 
