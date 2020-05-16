@@ -1,28 +1,8 @@
-# Generate random token
-# ask user for name
+import random
 
-name = input ("What is your name")
+# **** Main Routine Starts Here ****
 
-# ask user for two numbers
-
-tokens = ["horse", "zebra", "donkey", "unicorn"]
-num_1 = int(input("What is your favourite number? "))
-
-num_2 = int(input("What is your second favourite number? "))
-
-# add numbers together
-
-add = num_1 + num_2
-
-# multiply numbers together
-
-# greet user and display match
-
-print ('Hello',name)
-
-print (" {} + {} = {}".format (num_1, num_2, add ))
-
-#ask user how much money the user would like to play with, min $1 or max $5
+# Instructions/Introduction
 
 print()
 print("Welcome")
@@ -35,12 +15,7 @@ print()
 print("- For each round, you get a token which is worth an amount of money")
 print()
 print("Tokens: Donkey ($2), Horse or Zebra ($2) or an Unicorn ($5)")
-def int_check(question):
-    balance = int_check()("How much money would you like to play with? (Whole dollars between $1 or $5)",1, 10)
-    # Generate random token
 
-
-import random
 
 tokens = ["horse", "zebra", "donkey", "unicorn"]
 for item in range(1, 10):
