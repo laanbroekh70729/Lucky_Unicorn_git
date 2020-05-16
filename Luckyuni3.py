@@ -6,9 +6,20 @@ def int_check(question):
     while not valid:
 
         try:
-            response = float(input(question))
+            # Ask question
+            response = int(input(question))
 
+           if 0 < response <= 10:
 
+            return  response
+
+           # If response is invalid, display error
+           else:
+             print (error)
 
         except ValueError:
             print(error)
+
+amount = int_check("How much do you want to play with? ")
+price = amount
+
