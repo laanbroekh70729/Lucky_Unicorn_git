@@ -18,6 +18,6 @@ for item in range(1,HOW_MUCH):
     else:
         zebhor_count+= 1
 
-        print(chosen)
+     print(chosen)
 
 
