@@ -14,7 +14,7 @@ print ("- Each round you have a chance to win some of your money back or more th
 print()
 print("- For each round, you get a token which is worth an amount of money")
 print()
-print("Tokens: Donkey ($2), Horse or Zebra ($2) or an Unicorn ($5)")
+print("Tokens: Donkey ($0), Horse or Zebra ($2) or an Unicorn ($5)")
 
 
 tokens = ["horse", "zebra", "donkey", "unicorn"]
